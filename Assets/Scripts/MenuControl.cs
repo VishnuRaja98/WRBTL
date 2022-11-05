@@ -19,8 +19,6 @@ public class MenuControl : MonoBehaviour
     public TMPro.TextMeshProUGUI playerUsernameDisplay;
     public GameObject menuCanvas;
 
-    public Button settingsButton;
-    public GameObject settingsPanel;
 
     readonly int animatorTriggerLoggedIn = Animator.StringToHash("loggedin");
     Animator animator = null;

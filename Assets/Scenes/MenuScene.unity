@@ -841,6 +841,7 @@ GameObject:
   - component: {fileID: 248135739}
   - component: {fileID: 248135738}
   - component: {fileID: 248135742}
+  - component: {fileID: 248135743}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -953,6 +954,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &248135743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248135737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582169f0563675b46b731506d1eb4d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSettings: {fileID: 1172540941}
+  closeSettings: {fileID: 1707099232}
+  settingsPanel: {fileID: 1812017880}
+  loginObject: {fileID: 102087866}
+  registerObject: {fileID: 1918447170}
+  loginButton: {fileID: 2146453420}
+  gotoRegisterButton: {fileID: 1103089984}
+  gotoLoginButton: {fileID: 400140032}
+  registerButton: {fileID: 1082044113}
+  login_username: {fileID: 1462721042}
+  login_password: {fileID: 1542935691}
+  register_username: {fileID: 312964582}
+  register_password: {fileID: 2142128114}
+  register_password2: {fileID: 1527368927}
+  register_error: {fileID: 1584518178}
+  login_error: {fileID: 1619109183}
 --- !u!1 &276740148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6756,7 +6785,7 @@ GameObject:
   - component: {fileID: 1584518179}
   - component: {fileID: 1584518178}
   m_Layer: 5
-  m_Name: Error Text
+  m_Name: Register Error Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7813,7 +7842,6 @@ GameObject:
   - component: {fileID: 1812017881}
   - component: {fileID: 1812017883}
   - component: {fileID: 1812017882}
-  - component: {fileID: 1812017884}
   m_Layer: 5
   m_Name: SettingsPanel
   m_TagString: Untagged
@@ -7880,18 +7908,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812017880}
   m_CullTransparentMesh: 1
---- !u!114 &1812017884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812017880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 582169f0563675b46b731506d1eb4d8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1857298194
 GameObject:
   m_ObjectHideFlags: 0
@@ -8183,8 +8199,6 @@ MonoBehaviour:
   logoutButton: {fileID: 113186243}
   playerUsernameDisplay: {fileID: 513839807}
   menuCanvas: {fileID: 248135737}
-  settingsButton: {fileID: 1172540941}
-  settingsPanel: {fileID: 0}
 --- !u!1 &1963587555
 GameObject:
   m_ObjectHideFlags: 0
