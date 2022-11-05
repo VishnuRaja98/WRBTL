@@ -1,0 +1,9 @@
+lastUpgrade=01101
+proj.pluginVersion=0.11.01
+proj.AppId=694063360774
+and.BundleId=com.DefaultCompany.com.unity.template.mobile2D
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e694063360774%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.DefaultCompany.com.unity.template.mobile2D%3c%2fstring%3e%0d%0a++%3c%21--achievement+Welcome--%3e%0d%0a++%3cstring+name%3d%22achievement_welcome%22+translatable%3d%22false%22%3eCgkIhtaZy5kUEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=694063360774-0cgarb3fo2s08bjahmum2hf5eomf8qqe.apps.googleusercontent.com
+android.SetupDone=true
